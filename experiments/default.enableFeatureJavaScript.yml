@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5e981cff4c3438c131e5d242
+type: experiment
+name: enable feature java script
+flag: default.enableFeatureJavaScript
+value: true
