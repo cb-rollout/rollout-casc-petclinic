@@ -8,4 +8,8 @@ platforms:
     value: false
   - name: Browser
     value: false
-value: false
+conditions:
+  - group:
+      name: cbusers
+    value: false
+value: true
