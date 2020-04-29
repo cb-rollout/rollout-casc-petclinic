@@ -1,0 +1,6 @@
+type: target-group
+name: cbusers
+conditions:
+  - operator: regex
+    property: rox.language
+    operand: .*@cloudbees.com
