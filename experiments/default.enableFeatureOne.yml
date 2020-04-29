@@ -3,4 +3,9 @@
 type: experiment
 name: enable feature one
 flag: default.enableFeatureOne
+platforms:
+  - name: Java
+    value: false
+  - name: Browser
+    value: false
 value: false
