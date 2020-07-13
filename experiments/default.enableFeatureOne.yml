@@ -6,7 +6,5 @@ platforms:
   - name: Java
     value: false
 conditions:
-  - group:
-      name: prodcbusers
-    value: false
-value: false
+  - value: false
+value: true
