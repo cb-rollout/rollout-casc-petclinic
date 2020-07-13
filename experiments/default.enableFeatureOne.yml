@@ -5,4 +5,4 @@ flag: default.enableFeatureOne
 platforms:
   - name: Java
     value: false
-value: true
+value: false
