@@ -1,6 +1,5 @@
-# This file was edited by rollout.io
-# URL: https://app.rollout.io/ex/5ea05c97a1a06c69c8eb3f17
+# This file was edited by Cloudbees Feature Flags
 type: experiment
 name: enable feature one
 flag: default.enableFeatureOne
-value: true
+value: false
