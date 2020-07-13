@@ -2,7 +2,4 @@
 type: experiment
 name: enable feature one
 flag: default.enableFeatureOne
-platforms:
-  - name: Java
-    value: false
 value: true
