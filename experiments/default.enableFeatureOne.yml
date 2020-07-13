@@ -5,4 +5,8 @@ flag: default.enableFeatureOne
 platforms:
   - name: Java
     value: false
+conditions:
+  - group:
+      name: prodcbusers
+    value: false
 value: true
