@@ -2,5 +2,5 @@ type: target-group
 name: cbusers
 conditions:
   - operator: regex
-    property: rox.language
+    property: usermail
     operand: .*@cloudbees.com
