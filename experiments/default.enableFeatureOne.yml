@@ -2,4 +2,9 @@
 type: experiment
 name: enable feature one
 flag: default.enableFeatureOne
+conditions:
+  - group:
+      operator: and
+      name: cbusers
+    value: false
 value: false
