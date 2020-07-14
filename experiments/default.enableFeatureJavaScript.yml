@@ -2,4 +2,4 @@
 type: experiment
 name: enable feature java script
 flag: default.enableFeatureJavaScript
-value: false
+value: true
