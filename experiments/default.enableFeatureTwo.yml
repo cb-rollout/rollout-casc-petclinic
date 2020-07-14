@@ -2,4 +2,4 @@
 type: experiment
 name: enable feature two
 flag: default.enableFeatureTwo
-value: true
+value: false
