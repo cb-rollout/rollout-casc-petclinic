@@ -1,6 +1,6 @@
-![CloudBees Rollout](https://1ko9923xosh2dsbjsxpwqp45-wpengine.netdna-ssl.com/wp-content/themes/rollout/images/rollout_white_logo1.png)
+![CloudBees Feature Flags](https://1ko9923xosh2dsbjsxpwqp45-wpengine.netdna-ssl.com/wp-content/themes/rollout/images/rollout_white_logo1.png)
 
-[![Integration status](https://app.rollout.io/badges/5ea932660bc7f88f2ab23b59)](https://app.rollout.io/app/5e95ad1fa6de037e1793732b/settings/info)
+[![Integration status](https://app.rollout.io/badges/5f353b3a5628722578085d15)](https://app.rollout.io/app/5f3536ba0197fdf2429311fe/settings/info)
 
 This repository is a YAML represnetation for Rollout configuration, it is connected (see badge for status) to Rollout service via [Rollout's github app](https://github.com/apps/rollout-io)
 Configuration as code allows the entire configuration of Rollout's state to be stored as source code. It integrates Rollout's UI with engineering existing environment. This approach brings a lot of benefits.
@@ -153,8 +153,8 @@ conditions: [Condition] # see Condition schema
 # Value when no Condition is met
 # Optional
 #  false for boolean flags
-#  [] for enum flags  (indicates default value)
-value: String|Boolean|[SplitedValue]|[ScheduledValue]
+#  null for enum flags  (indicates default value)
+value: String|Boolean|[SplitedValue]|[ScheduledValue]|null
 ```
 
 ### SplitedValue Schema
@@ -215,7 +215,7 @@ version:
     semver: Semver
 
 # Value when Condition is met
-value: String|Boolean|[SplitedValue]|[ScheduledValue]
+value: String|Boolean|[SplitedValue]|[ScheduledValue]|null
 ```
 ### Platform Schema
 The platform object indicates a specific targeting for a specific platform
@@ -235,8 +235,8 @@ conditions: [Condition] # see Condition schema
 # Value when no Condition is met
 # Optional
 #  false for boolean flags
-#  [] for enum flags  (indicates default value)
-value: String|Boolean|[SplitedValue]|[ScheduledValue] # see Value schema
+#  null for enum flags  (indicates default value)
+value: String|Boolean|[SplitedValue]|[ScheduledValue]|null # see Value schema
 ```
 
 
