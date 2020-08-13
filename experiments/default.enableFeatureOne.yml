@@ -1,0 +1,15 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ea93dbe0fca485e29d09528
+type: experiment
+name: enable feature one
+flag: default.enableFeatureOne
+platforms:
+  - name: Java
+    value: false
+  - name: Browser
+    value: false
+conditions:
+  - group:
+      name: cbusers
+    value: false
+value: true

@@ -1,0 +1,6 @@
+type: target-group
+name: cbusers
+conditions:
+  - operator: regex
+    property: usermail
+    operand: .*@cloudbees.com
